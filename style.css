@@ -1,0 +1,13 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap'); */
+/* font-family: 'Montserrat', sans-serif; */
+/* border-radius: 1rem; */
+
+.textArea{
+    width: 90%;
+    height: 20vh;
+    padding: 0.3rem 1rem;
+    font-size: 1rem;
+    background-color: #112240;
+    color: #00ffb7;
+    margin: auto;
+}

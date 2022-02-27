@@ -1,9 +1,9 @@
-// const btn = document.querySelector('.btn');
-// const ans = function(){
-//     console.log('You clicked! to read more');
-// }
-// const  ans = () => {
-// console.log('You clicked! to read more');
+const textArea = document.querySelector('.textArea');
+const btn = document.querySelector('.btn');
 
-// }
-// btn.addEventListener('click', ans);
+const translated = () => {
+    let data = textArea.value;
+    console.log(data);
+}
+
+btn.addEventListener('click', translated);
