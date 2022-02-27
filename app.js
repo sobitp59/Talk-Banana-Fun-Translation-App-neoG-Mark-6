@@ -1,12 +1,12 @@
 const textArea = document.querySelector('.textArea');
-const textAreaOutput = document.querySelector('.textOutput');
+const transatedOutput = document.querySelector('.transated-output');
 const btn = document.querySelector('.btn');
 
 const translated = () => {
-    let output = document.createElement('div');
-    output.innerText = textArea.value;
-    document.body.appendChild(output);
-    // textAreaOutput.appendChild(output);
+    let fromTrans = textArea.value;
+    transatedOutput.innerText = fromTrans;
 }
-
 btn.addEventListener('click', translated);
+
+
+

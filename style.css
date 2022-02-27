@@ -11,19 +11,9 @@
     color: #00ffb7;
     margin: auto;
 }
-/* .textOutput{
-    width: 90%;
-    height: 20vh;
-    padding: 0.3rem 1rem;
-    font-size: 1rem;
-    background-color: #112240;
-    color: #00ffb7;
-    margin: auto;
-    margin-top: 2rem;
-    
-} */
 
-div{
+.transated-output{
+    /* width: 90%; */
     background-color: #00ffb74b;
     color: #112240;
     border: 2px solid #112240;
