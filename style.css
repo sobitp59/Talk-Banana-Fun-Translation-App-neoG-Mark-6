@@ -2,7 +2,7 @@
 /* font-family: 'Montserrat', sans-serif; */
 /* border-radius: 1rem; */
 
-/* .textArea{
+.textArea{
     width: 90%;
     height: 20vh;
     padding: 0.3rem 1rem;
@@ -10,20 +10,24 @@
     background-color: #112240;
     color: #00ffb7;
     margin: auto;
+}
+/* .textOutput{
+    width: 90%;
+    height: 20vh;
+    padding: 0.3rem 1rem;
+    font-size: 1rem;
+    background-color: #112240;
+    color: #00ffb7;
+    margin: auto;
+    margin-top: 2rem;
+    
 } */
 
-textarea{
-    background-color: red;
-}
-
-.btn-primary{
-    background-color: green;
-}
-
-#input-btn{
-    background-color: blue;
-}
-
-input[name = 'translator']{
-    background-color: yellow;
+div{
+    background-color: #00ffb74b;
+    color: #112240;
+    border: 2px solid #112240;
+    padding: 2rem;
+    margin: 0.5rem;
+    border-radius: 0.4rem;
 }
