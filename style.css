@@ -2,7 +2,7 @@
 /* font-family: 'Montserrat', sans-serif; */
 /* border-radius: 1rem; */
 
-.textArea{
+/* .textArea{
     width: 90%;
     height: 20vh;
     padding: 0.3rem 1rem;
@@ -10,4 +10,20 @@
     background-color: #112240;
     color: #00ffb7;
     margin: auto;
+} */
+
+textarea{
+    background-color: red;
+}
+
+.btn-primary{
+    background-color: green;
+}
+
+#input-btn{
+    background-color: blue;
+}
+
+input[name = 'translator']{
+    background-color: yellow;
 }
