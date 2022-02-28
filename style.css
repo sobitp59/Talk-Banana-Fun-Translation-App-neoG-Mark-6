@@ -1,23 +1,101 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap'); */
-/* font-family: 'Montserrat', sans-serif; */
-/* border-radius: 1rem; */
-
-.textArea{
-    width: 90%;
-    height: 20vh;
-    padding: 0.3rem 1rem;
-    font-size: 1rem;
-    background-color: #112240;
-    color: #00ffb7;
-    margin: auto;
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka One', cursive;
+}
+:root{
+    --primary-color : #fab005;
+    --secondary-color : #112240;
 }
 
-.transated-output{
-    /* width: 90%; */
-    background-color: #00ffb74b;
-    color: #112240;
-    border: 2px solid #112240;
-    padding: 2rem;
-    margin: 0.5rem;
-    border-radius: 0.4rem;
+.top{
+    width: 100%;
+    background-color: #112240;
+    padding: 1.3rem;
+    /* border-radius: 0.5rem; */
+}
+
+.top-title{
+    color: var(--primary-color);
+    text-align: center;
+    font-weight: 100;
+    font-size: 1.4rem;
+}
+
+.top-para{
+    color: #ffff;
+    text-align: center;
+    font-weight: 100;
+}
+
+.top-scan{
+color: #ffff;
+}
+
+.middle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-area{
+    width: 80%;
+    height: 25vh;
+    margin: 1rem 0;
+    padding: 0.5rem 0.5rem;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 0.5rem;
+    outline: none;
+    border: 3px solid var(--secondary-color);
+}   
+
+::placeholder{
+    color: var(--secondary-color);
+    /* opacity: 0.9; */
+}
+
+.btn-translate{
+    width: 30%;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 0.7rem;
+    border: none;
+    border: 3px solid var(--secondary-color);
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+.btn-translate:hover{
+  background-color: #fab005d8;
+  transition: 0.3s ease all;
+}
+
+.output-area{
+    width: 80%;
+    height: 25vh;
+    margin: 1rem 0;
+    padding: 0.5rem 0.5rem;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 0.5rem;
+    outline: none;
+    border: 3px solid var(--secondary-color)
+}
+
+.bottom{
+    width: 100%;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 1.3rem 5rem;
+    /* border-radius: 0.5rem; */
+}
+
+.bottom-para{
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
 }
