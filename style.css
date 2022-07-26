@@ -119,6 +119,10 @@ color: #ffff;
     font-size: 1.1rem;
     margin-top: 0.5rem;
 }
+ .bottom-para a{
+    color : var(--primary-color)
+  }
+
 
 /* Responsive */
 @media (max-width : 478px){
@@ -155,9 +159,7 @@ color: #ffff;
     
     }
     
-    .bottom-para a{
-    color : var(--primary-color)
-    }
+   
 
 
 }
